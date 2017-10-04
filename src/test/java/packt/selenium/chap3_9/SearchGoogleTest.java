@@ -29,6 +29,7 @@ public class SearchGoogleTest {
         driver = new ChromeDriver();
         //driver.manage().window().maximize();
         driver.manage().window().setSize(new Dimension(1440,900));
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
     @After
